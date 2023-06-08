@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+}
+.card {
+    width: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: radial-gradient(at Top left, rgb(55, 154, 216), rgb(23, 114, 189), rgb(140, 250, 252));
+    border-bottom: 10px solid;
+    border-right: 10px solid;
+    border-right-color: skyblue;
+    border-bottom-color: skyblue;
+    border-radius: 15px;
+}
+.card-info {
+    margin: 5px 40px;
+    padding: 10px;
+    text-align: center;
+    color: #080707;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name:hover {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title:hover {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.country:hover {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avatar {
+    text-align: left;
+    width: 160px;
+}
